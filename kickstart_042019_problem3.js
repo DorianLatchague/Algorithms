@@ -73,7 +73,6 @@ const rl = readline.createInterface({
 
 rl.on('line', function (line) {
     if( readLines === 0 ) {
-        testCases = parseInt(line);
     } else {
         if (followingLines === 0){
             followingLines = 1;
